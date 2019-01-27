@@ -3,9 +3,7 @@ title: Curriculum Vitae
 permalink: /cv
 ---
 
-[LinkedIn Profile](https://www.linkedin.com/in/felix-effenberger/)
-
-[Download curriculum vitae in PDF format](/cv/cv_effenberger.pdf)
+[Download in PDF format](/cv/cv_effenberger.pdf)
 
 # Basic information
 
