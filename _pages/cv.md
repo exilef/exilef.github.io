@@ -3,7 +3,7 @@ title: Curriculum Vitae
 permalink: /cv
 ---
 
-[Download in PDF format](/cv/cv_effenberger.pdf)
+[Download in PDF format](/cv/cv_effenberger.pdf){:target="_blank"}
 
 # Basic information
 
