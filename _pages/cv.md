@@ -28,12 +28,14 @@ I am also interested in creating open source software.
     [Amazon](https://www.amazon.de/Hamiltonian-submanifolds-regular-polytopes-Effenberger/dp/3832527583/).
   * PhD Advisor: [Prof. Wolfgang Kühnel](https://de.wikipedia.org/wiki/Wolfgang_K%C3%BChnel_(Mathematiker)).
   * Research in fields of discrete topology, geometry and combinatorics. Grant by German Research Foundation (DFG), Project Ku 1203/5. Authored open source software [simpcomp](/software).
+  * Scientific visit (1 month) at [Cornell University](https://www.cornell.edu/), Ithaca, NY, USA. Collaboration with [Prof. Edward Swartz](http://pi.math.cornell.edu/~ebs/).
 
 * **Diploma (M.Sc. equivalent) Mathematics and Computing Science**, *with distinction*, [University of Stuttgart](http://uni-stuttgart.de), Stuttgart, Germany.
   * 2002 -- 2005
   * Thesis Topic: Topology-based Vector Field Visualization on 2-Manifolds.
   * Advisor: [Prof. Daniel Weiskopf](https://www.vis.uni-stuttgart.de/institut/mitarbeiter/Weiskopf-00001/)
   * Areas of study: pure and applied mathematics (analysis, algebra, geometry, topology, statistics, numerical mathematics), computing science (algorithm design, databases, scientific visualization).
+  * Scientific visit (9 months) at [Simon Fraser University](), Burnaby, BC, Canada. Collaboration with [Prof. Daniel Weiskopf](https://www.vis.uni-stuttgart.de/institut/mitarbeiter/Weiskopf-00001/).
 
 # Experience
 
@@ -96,8 +98,8 @@ See [teaching page](/teaching).
 
 # Summer schools
 
-* Student at Berkeley Summer Course in Mining and Modeling of Neuroscience Data, Berkeley, CA, USA. 2012.
-* Student at Advanced Course of Computational Neuroscience (ACCN) 2013, Bedlewo, Poland. 2012.
+* Student at [Berkeley Summer Course in Mining and Modeling of Neuroscience Data](https://crcns.org/course), Berkeley, CA, USA. 2012.
+* Student at [Advanced Course of Computational Neuroscience (ACCN) 2013](http://www.neuroinf.pl/accn), Bedlewo, Poland. 2012.
 
 
 # Scholarships & Awards
@@ -111,12 +113,14 @@ See [teaching page](/teaching).
 
 # Professional service
 
-* PLOS Computational Biology, Reviewer
-* PLOS One, Reviewer
-* Neural Networks, Reviewer
-* European Journal of Combinatorics, Reviewer
-* Discrete and Computational Geometry, Reviewer
-* Journal of Combinatorial Theory, Series A, Reviewer
+* [COSYNE Conference](http://www.cosyne.org), Reviewer
+* [Discrete and Computational Geometry](https://link.springer.com/journal/454), Reviewer
+* [European Journal of Combinatorics](https://www.journals.elsevier.com/european-journal-of-combinatorics), Reviewer
+* [Journal of Combinatorial Theory, Series A](https://www.journals.elsevier.com/journal-of-combinatorial-theory-series-a), Reviewer
+* [Nature Scientific Reports](https://www.nature.com/srep/), Reviewer
+* [Neural Networks](https://www.journals.elsevier.com/neural-networks), Reviewer
+* [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/), Reviewer
+* [PLOS One](https://journals.plos.org/plosone/), Reviewer
 
 # Expertise
 
