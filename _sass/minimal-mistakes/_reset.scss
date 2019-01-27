@@ -86,9 +86,12 @@ a:focus {
 
 /* Remove outline from links */
 
-a:hover,
-a:active {
+a:hover {
   outline: 0;
+}
+
+a:active {
+  color: $link-color;
 }
 
 /* Prevent sub and sup affecting line-height in all browsers */

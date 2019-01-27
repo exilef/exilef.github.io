@@ -1,0 +1,601 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume/CV
+% Felix Effenberger, 2019
+% Version 1.0 (2019/01/27)
+%
+% - Changed to Merriweather font, spacing modifications
+% - New education command
+% - Compile with pdflatex
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% geometry
+\usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry}
+
+% font
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[light]{merriweather}
+
+\usepackage{setspace}
+\setstretch{1.1}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+
+% suppress section numbering
+\setcounter{secnumdepth}{0} 
+
+% header color
+\usepackage{color}
+\definecolor{headercolor}{rgb}{0,0,0}
+
+% custom headers
+\usepackage{sectsty}
+\sectionfont{\color{headercolor}}
+
+% headers and footers
+\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage\ of \pageref{LastPage}}}
+\pagestyle{plain}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% no parindent
+\setlength\parindent{0pt}
+
+% non-indenting itemize
+\newenvironment{itemize-noindent}
+{\setlength{\leftmargini}{0em}\begin{itemize}}
+{\end{itemize}}
+
+% text width for tabbing environments
+\newlength{\smallertextwidth}
+\setlength{\smallertextwidth}{\textwidth}
+\addtolength{\smallertextwidth}{-2cm}
+
+% square bullet
+\newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
+
+\newcommand{\link}[1]{\texttt{\href{#1}{#1}}}
+
+%----------------------------------------------------------------------------------------
+%	MAIN HEADER COMMAND
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\title}[1]{
+{\huge{\color{headercolor}\textbf{#1}}}\\
+\rule{\textwidth}{0.5mm}\\
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION COMMAND
+%----------------------------------------------------------------------------------------
+
+\newcommand{\education}[4]{
+\begin{tabbing}%
+\hspace{2.2cm}\=\kill%
+{#1} \> \textbf{#2}\\
+\>\+ \textit{#3}\\[3pt]
+\begin{minipage}{\smallertextwidth}
+\vspace{2mm}
+#4
+\end{minipage}
+\end{tabbing}
+\vspace{2mm}
+}
+
+%----------------------------------------------------------------------------------------
+%	JOB COMMAND
+%----------------------------------------------------------------------------------------
+
+\newcommand{\job}[5]{
+\begin{tabbing}
+\hspace{2.2cm} \= \kill
+{#1} \> \textbf{#3}\\
+{#2} \>\+ \textit{#4}\\[3pt]
+\begin{minipage}{\smallertextwidth}
+\vspace{2mm}
+#5
+\end{minipage}
+\end{tabbing}
+\vspace{2mm}
+}
+
+%----------------------------------------------------------------------------------------
+%	SKILL GROUP COMMAND
+%----------------------------------------------------------------------------------------
+
+\newcommand{\skillgroup}[2]{
+\begin{tabbing}
+\hspace{5mm} \= \kill
+\sqbullet \>\+ \textbf{#1}\\
+\begin{minipage}{\smallertextwidth}
+\vspace{2mm}
+#2
+\end{minipage}
+\end{tabbing}
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS GROUP COMMAND
+%-----------------------------------------------------------------------------------------
+
+\newcommand{\interestsgroup}[1]{
+\begin{tabbing}%
+\hspace{5mm}\=\kill%
+#1%
+\end{tabbing}
+\vspace{-10mm}
+}
+
+\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]}
+
+%----------------------------------------------------------------------------------------
+%	TABBED BLOCK COMMAND
+%----------------------------------------------------------------------------------------
+\newcommand{\tabbedblock}[1]{
+\begin{tabbing}%
+\hspace{2.2cm}\=\hspace{15cm}\=\kill%
+#1%
+\end{tabbing}
+}
+
+%----------------------------------------------------------------------------------------
+%	TAB ITEM
+%----------------------------------------------------------------------------------------
+\newcommand{\tabitem}[2]{%
+#1\>\begin{minipage}[t]{15cm}#2\end{minipage}\\[5pt]
+}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION COMMAND
+%----------------------------------------------------------------------------------------
+\newcommand{\publication}[5]{
+\tabitem
+{#1}
+{%
+  \href{#5}{#2}\\
+  #3\\
+  #4\\
+}
+}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE COMMAND
+%----------------------------------------------------------------------------------------
+\newcommand{\reference}[4]{
+\parbox[t]{0.5\textwidth}{
+\begin{tabbing}
+\hspace{2cm} \= \hspace{4cm} \= \kill
+\textbf{Name} \> #1\\
+\textbf{Company} \> #2\\
+\textbf{Position} \> #3\\
+\textbf{Contact} \> \href{mailto:{#4}}{#4}
+\end{tabbing}
+}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Felix Effenberger -- Résumé}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+%
+I am a Mathematician (PhD) and computer scientist by training, turned neuroscientist, turned entrepreneur. 
+I work as freelance researcher / software engineer / data scientist / trainer, located in Germany.
+My research interests are in (computational) neuroscience, (discrete) mathematics and (high-dimensional) data analysis.
+I am also interested in creating open source software.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+%
+\education
+{2007-2011}
+{PhD Mathematics \textmd{(summa cum laude)}}
+{\href{https://uni-stuttgart.de}{University of Stuttgart, Germany}}
+{
+Thesis title: \textit{Hamiltonian Submanifolds of Regular Polytopes}\\
+Advisor: \href{http://www.igt.uni-stuttgart.de/LstDiffgeo/Kuehnel/}{Prof.~Wolfgang~Kühnel}\\[5pt]
+%
+Research in fields of discrete topology, geometry and combinatorics.
+Grant by German Research Foundation (DFG), Project Ku 1203/5.
+Authored open source software \href{https://github.com/simpcomp-team/simpcomp}{simpcomp}.
+}
+
+\education
+{2002-2007}
+{Diploma Mathematics and Computer Science (MSc. equivalent) \textmd{(w/ distinction)}}
+{\href{https://uni-stuttgart.de}{University of Stuttgart, Germany}}
+{
+Thesis Title: \textit{Topology-based Vector Field Visualization on 2-Manifolds}\\
+Advisor: \href{https://www.vis.uni-stuttgart.de/institut/mitarbeiter/Weiskopf-00001/}{Prof. Daniel Weiskopf}\\[5pt]
+%
+Areas of study: pure and applied mathematics (analysis, algebra, geometry, topology, statistics, numerical mathematics), 
+computing science (algorithm design, databases, scientific visualization).
+}
+
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\job
+{Sep 2017 -}{Present}
+{Co-founder and Chief Technology Officer (CTO)}
+{Stealth Silicon Valley Startup\textup{, San Francisco, CA}}
+{
+Worked on neuroscience-inspired signal processing with focus on image and video compression. 
+Responsible for everything tech, managed team of 5 engineers. Scrum master, chose technologies and
+set coding standards, managed cloud infrastructure, did code reviews. Deep dives into engineering
+problems where necessary. Raised angel investments and 3m seed round.\\[5pt]
+\textbf{Technologies:} Python, C, C++, Assembly, CUDA, OpenCL, ObjectiveC, Gitlab, Amazon EC2, Microsoft Azure
+}
+
+\begin{tabbing}
+  \hspace{2.2cm} \= \kill
+  {Sept 2015 -} \> \textbf{Postdoctoral Researcher}\\
+  {Sep 2017} \> \textit{\href{https://fias.institute}{Frankfurt Institute for Advanced Studies}}, Frankfurt, Germany\\
+  \>\+ \textit{\href{http://www.esi-frankfurt.de}{Ernst Strüngmann Institute}}, Frankfurt, Germany\\[3pt]
+  \begin{minipage}{\smallertextwidth}
+    \vspace{2mm}
+    Postdoctoral Advisor: \href{https://www.fias.science/de/neurowissenschaften/gruppen/hermann-cuntz/}{Dr. Hermann Cuntz}\\
+    Research in neuronal morphology, modeling and data analysis. Published several papers and developed
+    open source software \href{https://www.treestoolbox.org/}{\texttt{TREES toolbox 2}}.\\[5pt]
+    \textbf{Technologies:} Python, Matlab, LaTeX  
+  \end{minipage}
+\end{tabbing}
+\vspace{2mm}
+  
+
+\job
+{May 2013 -}{Oct 2015}
+{Freelance software developer}
+{\href{https://nextbike.com}{nextbike GmbH}\textup{, Leipzig, Germany}}
+{
+  Developed data-driven Android application for service staff of bike sharing service.\\
+  Contact: \href{https://www.linkedin.com/in/johannes-vockeroth-8885709a/}{Johannes Vockeroth, CTO}\\[5pt]
+  \textbf{Technologies:} Android, Java
+}
+  
+\job
+{Jan 2013 -}{Jan 2016}
+{Co-founder and full stack developer}
+{\href{https://modelogiq.com}{modelogiq GmbH}\textup{, Frankfurt, Germany}}
+{
+  Python and Clojure backend developer and JavaScript frontend developer for fintech startup.\\[5pt]
+  \textbf{Technologies:} Python, Clojure, JavaScript
+}
+
+\job
+{Nov 2011 -}{Sep 2015}
+{Postdoctoral Researcher}
+{\href{https://www.mis.mpg.de}{Max-Planck-Institute for Mathematics in the Sciences}\textup{, Leipzig, Germany}}
+{
+  Postdoctoral Advisor: \href{https://www.mis.mpg.de/de/jjost/juergen-jost.html}{Prof. Jürgen Jost}\\
+  Research in mathematical neurobiology and computational neuroscience, focus on processes of self-organization
+  in cortical neural networks and the fundamentals of learning (synaptic plasticity). Modeling and analysis
+  of spiking neuron data. Published several research papers, a book chapter, and developed software
+  \texttt{\href{https://github.com/team-hdnet/hdnet}{hdnet}}.\\[5pt]
+  \textbf{Technologies:} Python, LaTeX
+}
+
+\job
+{Jun 2004 -}{Oct 2007}
+{Research assistant}
+{\href{http://www.igt.uni-stuttgart.de}{University of Stuttgart, Institute of Geometry and Topology}\textup{, Stuttgart, Germany}}
+{
+  Research in fields of discrete topology, discrete geometry, and combinatorics under grant
+  of the German Research Foundation (DFG), Project Ku 1203/5: ``Automorphism groups in combinatorial topology''.
+}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Teaching}
+
+\textbf{Max-Planck-Institute for Mathematics in the Sciences}, Leipzig, Germany
+%
+\tabbedblock{
+  %
+  \tabitem
+  {2014}
+  {Seminar: \textit{High-dimensional data analysis}}
+  %
+  \tabitem
+  {2014}
+  {Lecture: \textit{Self-organization in computational neuroscience} (joint with Anna Levina)}
+  %
+  \tabitem
+  {2013}
+  {Lecture: \textit{An Introduction to Computational Neuroscience}}
+}
+
+\textbf{University of Stuttgart}, Stuttgart, Germany
+%
+\tabbedblock{
+  %
+  \tabitem
+  {2011}
+  {Lecture: \textit{Geometry} (assisting Prof. E. Teufel)}
+  %
+  \tabitem
+  {2010}
+  {Lecture: \textit{Computer Mathematics} (assisting Prof. H. Harbrecht)}
+  %
+  \tabitem
+  {2010}
+  {Lecture: \textit{Programming in C} (assisting Prof. H. Harbrecht)}
+  %
+  \tabitem
+  {2007}
+  {Lecture: \textit{Introduction to Algebra and Geometry} (assisting Prof. W. Kimmerle)}
+  %
+}
+
+\textbf{Summer schools}
+%
+\tabbedblock{
+  %
+  \tabitem
+  {2015}
+  {Lecturer at \href{https://crcns.org/course}{\textit{Berkeley Summer Course in Mining and Modeling of Neuroscience Data}},\\UC Berkeley, CA, USA}
+  %
+  \tabitem
+  {2014}
+  {Lecturer and tutor at \href{http://www.neurobiotech.ru/ru/dataNS}{\textit{Data Analysis in Neuroscience}}, Moscow, Russia}
+  %
+  \tabitem
+  {2014}
+  {Lecturer at \href{http://sisne.org/previous-editions/lascon-v/?lang=en}{\textit{V Latin American School of Computational Neuroscience}} (LASCON), Natal, Brazil}
+}
+
+\textbf{Freelance trainer}
+%
+\tabbedblock{
+%
+\tabitem
+{2011}
+{%
+Trainer for intensive course \textit{Introduction to robotics}, 20 hours\\
+\textit{\href{https://www.ee-ag.com/}{euro engineering AG}}, Stuttgart, Germany (now Modis)
+}
+%
+\tabitem
+{2011}
+{%
+Trainer for intensive course \textit{Programming C}, 30 hours\\
+\textit{\href{https://www.ee-ag.com/}{euro engineering AG}}, Stuttgart, Germany (now Modis)
+}
+}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Journal Publications}
+%
+\tabbedblock{
+%
+\publication
+{2018}
+{A regularity index for dendrites - local statistics of a neuron’s input space}
+{L.Anton-Sanchez$^{*}$, F.Effenberger$^{*}$, C.Bielza, P.Larrañaga, H.Cuntz\\$^{*}$equal contributions}
+{\textit{PLOS Computational Biology} 14(11):e1006593}
+{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006593}
+%
+\publication
+{2017}
+{Universal features of dendrites through centripetal branch ordering}
+{A.Vormberg, F.Effenberger, J.Muellerleile, H.Cuntz}
+{\textit{PLOS Computational Biology} 13(7):e1005615}
+{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005615}
+%
+\publication
+{2015}
+{Self-organization in balanced state networks by STDP and homeostatic plasticity}
+{F.Effenberger, J.Jost, A.Levina}
+{\textit{PLOS Computational Biology} 11(9):e1004420}
+{http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004420}
+%
+\publication
+{2015}
+{Robust Discovery of Temporal Structure in Multi-neuron Recordings Using Hopfield Networks}
+{C.Hillar, F.Effenberger}
+{\textit{Procedia Computer Science} 53, 365--374}
+{http://www.sciencedirect.com/science/article/pii/S1877050915018165URL}
+%
+\publication
+{2012}
+{Simplicial blowups and discrete normal surfaces in \texttt{simpcomp}}
+{F.Effenberger, J.Spreer}
+{\textit{ACM Communications in Computer Algebra} 45(3/4), 173--176}
+{http://dl.acm.org/citation.cfm?id=2110176}
+%
+\publication
+{2011}
+{Stacked polytopes and tight triangulations of manifolds}
+{F.Effenberger}
+{\textit{Journal of Combinatorial Theory}, Series A, 118(6), 1843--1862}
+{http://www.sciencedirect.com/science/article/pii/S0097316511000537}
+%
+\publication
+{2011}
+{\texttt{simpcomp}: a GAP toolbox for simplicial complexes}
+{F.Effenberger, J.Spreer}
+{\textit{ACM Communications in Computer Algebra}, 44(3/4), 186--189}
+{http://dl.acm.org/citation.cfm?id=1940516}
+%
+\publication
+{2010}
+{Hamiltonian submanifolds of regular polytopes}
+{F.Effenberger, W.Kühnel}
+{\textit{Discrete \& Computational Geometry} 43(2), 242--262}
+{http://link.springer.com/article/10.1007/s00454-009-9151-9}
+%
+\publication
+{2010}
+{Finding and classifying critical points of 2d vector fields: a cell-oriented approach using group theory}
+{F.Effenberger, D.Weiskopf}
+{\textit{Computing and Visualization in Science} 13(8), 377--396}
+{http://link.springer.com/article/10.1007/s00791-011-0152-x}
+%
+%\publication
+%{YEAR}
+%{TITLE}
+%{AUTHORS}
+%{REF}
+%{URL}
+}
+
+%----------------------------------------------------------------------------------------
+%	BOOK CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\section{Book Chapters}
+
+\tabbedblock{
+  %
+  \publication
+  {2015}
+  {Discovery of Salient Low-Dimensional Dynamical Structure in Neuronal Population Activity}
+  {F.Effenberger, C.Hillar}
+  {In \textit{International Workshop on Similarity-Based Pattern Recognition (SIMBAD)}, Springer International}
+  {http://link.springer.com/chapter/10.1007/978-3-319-24261-3_16}
+  %
+  \publication
+  {2013}
+  {A Primer on Information Theory with Applications to Neuroscience}
+  {F.Effenberger}
+  {In \textit{Computational Medicine in Data Mining and Modeling}, Springer New York}
+  {http://link.springer.com/chapter/10.1007/978-1-4614-8785-2_5}
+}
+
+%----------------------------------------------------------------------------------------
+%	SOFTWARE
+%----------------------------------------------------------------------------------------
+
+\section{Software}
+
+{%
+  \texttt{TREES2} -- TREES toolbox 2, a neuronal morphology Matlab toolbox.\\
+  Joint work with H.Cuntz\\[5pt]
+  Website: \link{http://treestoolbox.org}\\
+  GitHub: \link{https://github.com/treestoolbox/treestoolbox}\\
+}\\[8pt]
+%
+{%
+  \texttt{hdnet} -- Hopfield denoising network.\\
+  Joint work with C.Hillar\\[5pt]
+  GitHub: \link{https://github.com/team-hdnet/hdnet}\\
+  Documentation: \link{http://team-hdnet.github.io/hdnet}\\
+}\\[8pt]
+%
+{%
+\texttt{simpcomp} -- a GAP toolbox for simplicial complexes.\\
+Joint work with J.Spreer.\\
+GAP \textit{shared package} (peer reviewed), 2013.\\[5pt]
+GAP repository: \link{http://www.gap-system.org/Packages/simpcomp.html}\\
+GitHub: \link{https://github.com/simpcomp-team/simpcomp}\\
+Documentation: \link{https://simpcomp-team.github.io/simpcomp}\\
+}%\\[8pt]
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Programming Languages}
+{
+
+\textit{Assembly}, \textit{C}, \textit{C++},
+\textit{Clojure},
+\textit{CUDA},
+\textit{Go},
+\textit{Java},
+\textit{JavaScript},
+\textit{Matlab},
+\textit{ObjectiveC},
+\textit{OpenCL},
+\textit{Perl},
+\textit{PHP},
+\textit{Python},
+\textit{R},
+\textit{Shell scripting},
+\textit{SQL}
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{Systems administration in UNIX/Linux environments},
+\textit{DVCS} (Git, Mercurial), 
+\textit{Productivity applications} (LaTeX, office software),
+\textit{Cloud computing} (AWS, Azure, Terraform)
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+%\interestsgroup{
+%}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{References}
+
+%\reference
+%{Bill Lumbergh}
+%{Initech Inc.}
+%{Vice President}
+%{bill@initech.com}
+%
+%\hfill
+%
+%\reference
+%{Michael "Big Mike" Tucker}
+%{Burbank Buy More}
+%{Store Manager}
+%{mike@buymore.com}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
