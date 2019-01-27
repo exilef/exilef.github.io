@@ -105,8 +105,8 @@ See [teaching page](/teaching).
 * Postdoctoral research fellowship by the [Max Planck Sociecy](https://www.mpg.de), 2011 -- 2015
 * Ph.D. scholarship of [German National Academic Foundation (Studienstiftung des Deutschen Volkes)](http://www.studienstiftung.de/), 2008 -- 2010
 * Scholarship of [German National Academic Foundation (Studienstiftung des Deutschen Volkes)](http://www.studienstiftung.de/), 2004 -- 2007
-* Scholarship of the [German Academic Exchange Service (DAAD)](https://www.daad.de) for a visit to Cornell University, Ithaca, New York, USA, March 2010
-* "Best Software Presentation Award" by the Computer algebra working group, RWTH Aachen (joint with J. Spreer) at ISSAC 2010 in Munich, July 26, 2010
+* Scholarship of the [German Academic Exchange Service (DAAD)](https://www.daad.de) for a visit to [Cornell University](https://www.cornell.edu/), Ithaca, New York, USA, March 2010
+* "Best Software Presentation Award" by the Computer algebra working group, RWTH Aachen (joint with J. Spreer) at [ISSAC 2010](http://www.issac-conference.org/2010/) in Munich, July 26, 2010
 
 
 # Professional service
