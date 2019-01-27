@@ -65,10 +65,14 @@
 {\setlength{\leftmargini}{0em}\begin{itemize}}
 {\end{itemize}}
 
+% left margin
+\newlength{\marginwidth}
+\setlength{\marginwidth}{2.2cm}
+
 % text width for tabbing environments
 \newlength{\smallertextwidth}
 \setlength{\smallertextwidth}{\textwidth}
-\addtolength{\smallertextwidth}{-2cm}
+\addtolength{\smallertextwidth}{-\marginwidth}
 
 % square bullet
 \newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
@@ -90,9 +94,9 @@
 
 \newcommand{\education}[4]{
 \begin{tabbing}%
-\hspace{2.2cm}\=\kill%
+\hspace{\marginwidth}\=\kill%
 {#1} \> \textbf{#2}\\
-\>\+ \textit{#3}\\[3pt]
+\>\+ \textit{#3}\\[5pt]
 \begin{minipage}{\smallertextwidth}
 \vspace{2mm}
 #4
@@ -107,9 +111,9 @@
 
 \newcommand{\job}[5]{
 \begin{tabbing}
-\hspace{2.2cm} \= \kill
+\hspace{\marginwidth} \= \kill
 {#1} \> \textbf{#3}\\
-{#2} \>\+ \textit{#4}\\[3pt]
+{#2} \>\+ \textit{#4}\\[5pt]
 \begin{minipage}{\smallertextwidth}
 \vspace{2mm}
 #5
@@ -145,14 +149,14 @@
 \vspace{-10mm}
 }
 
-\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]}
+\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[5pt]}
 
 %----------------------------------------------------------------------------------------
 %	TABBED BLOCK COMMAND
 %----------------------------------------------------------------------------------------
 \newcommand{\tabbedblock}[1]{
 \begin{tabbing}%
-\hspace{2.2cm}\=\hspace{15cm}\=\kill%
+\hspace{\marginwidth}\=\hspace{\smallertextwidth}\=\kill%
 #1%
 \end{tabbing}
 }
@@ -161,9 +165,8 @@
 %	TAB ITEM
 %----------------------------------------------------------------------------------------
 \newcommand{\tabitem}[2]{%
-#1\>\begin{minipage}[t]{15cm}#2\end{minipage}\\[5pt]
+#1\>\begin{minipage}[t]{\smallertextwidth}#2\end{minipage}\\[5pt]
 }
-
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATION COMMAND
@@ -269,11 +272,12 @@ problems where necessary. Raised angel investments and 3m seed round.\\[5pt]
 \textbf{Technologies:} Python, C, C++, Assembly, CUDA, OpenCL, ObjectiveC, Gitlab, Amazon EC2, Microsoft Azure
 }
 
+% double affiliation, no template here
 \begin{tabbing}
-  \hspace{2.2cm} \= \kill
+  \hspace{\marginwidth} \= \kill
   {Sept 2015 -} \> \textbf{Postdoctoral Researcher}\\
   {Sep 2017} \> \textit{\href{https://fias.institute}{Frankfurt Institute for Advanced Studies}}, Frankfurt, Germany\\
-  \>\+ \textit{\href{http://www.esi-frankfurt.de}{Ernst Strüngmann Institute}}, Frankfurt, Germany\\[3pt]
+  \>\+ \textit{\href{http://www.esi-frankfurt.de}{Ernst Strüngmann Institute}}, Frankfurt, Germany\\[5pt]
   \begin{minipage}{\smallertextwidth}
     \vspace{2mm}
     Postdoctoral Advisor: \href{https://www.fias.science/de/neurowissenschaften/gruppen/hermann-cuntz/}{Dr. Hermann Cuntz}\\
@@ -283,7 +287,6 @@ problems where necessary. Raised angel investments and 3m seed round.\\[5pt]
   \end{minipage}
 \end{tabbing}
 \vspace{2mm}
-  
 
 \job
 {May 2013 -}{Oct 2015}
