@@ -39,7 +39,7 @@ I am also interested in creating open source software.
 
 # Experience
 
-* **Co-founder and Chief Technology Officer (CTO)**, September 2017 -- Present
+* **Co-Founder and Chief Technology Officer (CTO)**, September 2017 -- Present
   * Stealth Silicon Valley Startup, San Francisco, CA, USA
   * Worked on neuroscience-inspired signal processing with focus on image and video compression. Responsible for everything tech, managed team of 5 engineers. Scrum master, chose technologies and set coding standards, managed cloud infrastructure, did code reviews. Deep dives into engineering problems where necessary. 
   * Raised angel investments and 3m seed round.
@@ -52,14 +52,14 @@ I am also interested in creating open source software.
   * Research in neuronal morphology, modeling and data analysis. Published several papers and developed open source software [TREES toolbox 2](https://www.treestoolbox.org/)
   * **Technologies**: Python, Matlab, LaTeX  
 
-* **Freelance software developer**, May 2013 -- October 2015
+* **Freelance Software Developer**, May 2013 -- October 2015
   * [nextbike GmbH](http://nextbike.com), Leipzig, Germany
   * Developed data-driven Android application for service staff of bike sharing service.
   * Contact: [Johannes Vockeroth, CTO](https://www.linkedin.com/in/johannes-vockeroth-8885709a/)
   * **Technologies**: Android, Java
 
-* **Co-founder and full stack developer**, January 2013 -- January 2016
-  * [modelogiq GmbH](http://modelogiq.com), Frankfurt, Germany
+* **Co-Founder and Full Stack Developer**, January 2013 -- January 2016
+  * [modelogiq GmbH](http://www.modelogiq.com), Frankfurt, Germany
   * Python and Clojure backend developer and JavaScript frontend developer for fintech startup.
   * **Technologies**: Python, Django, Clojure, JavaScript
 
