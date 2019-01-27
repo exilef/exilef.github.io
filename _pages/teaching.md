@@ -17,10 +17,10 @@ permalink: /teaching
 
 
 ### Summer Schools
-  * July 2015: Lecturer at [Berkeley Summer Course in Mining and Modeling of Neuroscience Data](https://crcns.org/course), Berkeley, CA, USA
-  * July 2014: Lecturer and tutor at summer school [Data Analysis in Neuroscience](http://www.neurobiotech.ru/?q=en/dataNS), Moscow, Russia
-  * February 2014: Lecturer and tutor at [5th Latin American School of Computational Neuroscience (LASCON V)](http://sisne.org/?page_id=899&lang=en), Natal, RN, Brazil
+  * July 2015: Lecturer at [Berkeley Summer Course in Mining and Modeling of Neuroscience Data](https://crcns.org/course){:target="_blank"}, Berkeley, CA, USA
+  * July 2014: Lecturer and tutor at summer school [Data Analysis in Neuroscience](http://www.neurobiotech.ru/?q=en/dataNS){:target="_blank"}, Moscow, Russia
+  * February 2014: Lecturer and tutor at [5th Latin American School of Computational Neuroscience (LASCON V)](http://sisne.org/?page_id=899&lang=en){:target="_blank"}, Natal, RN, Brazil
 
 ### Freelance trainer
-  * 2011: Trainer for intensive course *Introduction to robotics*, 20 hours. [euro engineering AG (now Modis)](https://www.ee-ag.com/), Stuttgart, Germany
-  * 2011: Trainer for intensive course *Introduction to robotics*, 30 hours. [euro engineering AG (now Modis)](https://www.ee-ag.com/), Stuttgart, Germany
+  * 2011: Trainer for intensive course *Introduction to robotics*, 20 hours. [euro engineering AG (now Modis)](https://www.ee-ag.com/){:target="_blank"}, Stuttgart, Germany
+  * 2011: Trainer for intensive course *Introduction to robotics*, 30 hours. [euro engineering AG (now Modis)](https://www.ee-ag.com/){:target="_blank"}, Stuttgart, Germany
