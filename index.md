@@ -3,9 +3,7 @@ layout: single
 author_profile: true
 ---
 
-Hi!
-
-My name is Felix Effenberger.
+Hi, my name is Felix Effenberger.
 
 I am a mathematician (PhD) and computer scientist by training, turned neuroscientist, turned entrepreneur.
 
