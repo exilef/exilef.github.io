@@ -21,8 +21,8 @@ I am also interested in creating open source software.
 
 # Education
 
-* **PhD. Mathematics**, *summa cum laude*, [University of Stuttgart](http://uni-stuttgart.de), Stuttgart, Germany.
-  * 2007 -- 2011
+* **PhD. Mathematics**, *summa cum laude*, 2007 -- 2011
+  * [University of Stuttgart](http://uni-stuttgart.de), Stuttgart, Germany
   * Thesis Topic: Hamiltonian Submanifolds of Regular Polytopes 
     [PDF](/files/dissertation_effenberger.pdf) |
     [Amazon](https://www.amazon.de/Hamiltonian-submanifolds-regular-polytopes-Effenberger/dp/3832527583/).
@@ -30,8 +30,8 @@ I am also interested in creating open source software.
   * Research in fields of discrete topology, geometry and combinatorics. Grant by German Research Foundation (DFG), Project Ku 1203/5. Authored open source software [simpcomp](/software).
   * Scientific visit (1 month) at [Cornell University](https://www.cornell.edu/), Ithaca, NY, USA. Collaboration with [Prof. Edward Swartz](http://pi.math.cornell.edu/~ebs/).
 
-* **Diploma (M.Sc. equivalent) Mathematics and Computing Science**, *with distinction*, [University of Stuttgart](http://uni-stuttgart.de), Stuttgart, Germany.
-  * 2002 -- 2005
+* **Diploma (M.Sc. equivalent) Mathematics and Computing Science**, *with distinction*, 2002 -- 2005
+  * [University of Stuttgart](http://uni-stuttgart.de), Stuttgart, Germany
   * Thesis Topic: Topology-based Vector Field Visualization on 2-Manifolds.
   * Advisor: [Prof. Daniel Weiskopf](https://www.vis.uni-stuttgart.de/institut/mitarbeiter/Weiskopf-00001/)
   * Areas of study: pure and applied mathematics (analysis, algebra, geometry, topology, statistics, numerical mathematics), computing science (algorithm design, databases, scientific visualization).
@@ -39,44 +39,38 @@ I am also interested in creating open source software.
 
 # Experience
 
-* **Co-founder and Chief Technology Officer (CTO)**
+* **Co-founder and Chief Technology Officer (CTO)**, September 2017 -- Present
   * Stealth Silicon Valley Startup, San Francisco, CA, USA
-  * September 2017 -- Present
   * Worked on neuroscience-inspired signal processing with focus on image and video compression. Responsible for everything tech, managed team of 5 engineers. Scrum master, chose technologies and set coding standards, managed cloud infrastructure, did code reviews. Deep dives into engineering problems where necessary. 
   * Raised angel investments and 3m seed round.
   * **Technologies**: Python, C, C++, Assembly, CUDA, OpenCL, ObjectiveC, GitLab, Amazon EC2, Microsoft Azure
 
-* **Postdoctoral researcher** 
+* **Postdoctoral researcher**, September 2015 -- September 2017
   * [Frankfurt Institute for Advanced Studies](http://fias.uni-frankfurt.de), Franfurt, Germany
   * [Ernst Strüngmann Institute](http://www.esi-frankfurt.de), Frankfurt, Germany
-  * September 2015 -- September 2017
   * Postdoctoral advisor: [Dr. Hermann Cuntz](https://www.fias.science/en/neuroscience/research-groups/hermann-cuntz/)
   * Research in neuronal morphology, modeling and data analysis. Published several papers and developed open source software [TREES toolbox 2](https://www.treestoolbox.org/)
   * **Technologies**: Python, Matlab, LaTeX  
 
-* **Freelance software developer**
+* **Freelance software developer**, May 2013 -- October 2015
   * [nextbike GmbH](http://nextbike.com), Leipzig, Germany
-  * May 2013 -- October 2015
   * Developed data-driven Android application for service staff of bike sharing service.
   * Contact: [Johannes Vockeroth, CTO](https://www.linkedin.com/in/johannes-vockeroth-8885709a/)
   * **Technologies**: Android, Java
 
-* **Co-founder and full stack developer**
+* **Co-founder and full stack developer**, January 2013 -- January 2016
   * [modelogiq GmbH](http://modelogiq.com), Frankfurt, Germany
-  * January 2013 -- January 2016
   * Python and Clojure backend developer and JavaScript frontend developer for fintech startup.
   * **Technologies**: Python, Django, Clojure, JavaScript
 
-* **Postdoctoral researcher**
+* **Postdoctoral researcher**, November 2011 -- September 2015
   * [Max-Planck-Institute for Mathematics in the Sciences](http://www.mis.mpg.de), Leipzig, Germany
   *   Postdoctoral Advisor: [Prof. Jürgen Jost](https://www.mis.mpg.de/de/jjost/juergen-jost.html), [Jost group](https://www.mis.mpg.de/de/jjost/research.html)
-  * November 2011 -- September 2015
   * Research in mathematical neurobiology and computational neuroscience, focus on processes of self-organization in cortical neural networks and the fundamentals of learning (synaptic plasticity). Modeling and analysis of spiking neuron data. Published several research papers, a book chapter, and developed software [hdnet](/software).
   * **Technologies**: Python, Sun Grid Engine, LaTeX
 
-* **Research assistant**
+* **Research assistant**, June 2004 -- October 2007
   * [University of Stuttgart](http://uni-stuttgart.de), [Institute for Geometry and Topology](http://www.igt.uni-stuttgart.de)
-  * June 2004 -- October 2007
   * Research in fields of discrete topology, discrete geometry, and combinatorics under grant of the German Research Foundation (DFG), Project Ku 1203/5: ``Automorphism groups in combinatorial topology''.
 
 # Research interests
