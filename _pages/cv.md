@@ -14,8 +14,8 @@ permalink: /cv
 # Personal Profile
 
 I am a Mathematician (PhD) and computer scientist by training, turned neuroscientist, turned entrepreneur. 
-I am located in Germany and work for my own startups and as freelance researcher / software engineer / data scientist / trainer as well.
-My research interests are in (computational) neuroscience, (discrete) mathematics and (high-dimensional) data analysis.
+I am located in Germany and work for my own startups and as freelance researcher / software engineer / data scientist / trainer.
+My research interests are in neuroscience, mathematics, data analysis, and machine learning.
 I am also interested in creating open source software.
 
 # Education
