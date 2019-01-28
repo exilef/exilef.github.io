@@ -38,13 +38,12 @@
 
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\usepackage{hyperref}
 
 % suppress section numbering
 \setcounter{secnumdepth}{0} 
 
 % header color
-\usepackage{color}
+\usepackage{xcolor}
 \definecolor{headercolor}{rgb}{0,0,0}
 
 % custom headers
@@ -57,8 +56,19 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+  pdfauthor={Felix Effenberger},
+  pdfsubject={Resume},
+  pdftitle={Resume},
+  pdfkeywords={Resume, CV},
+  colorlinks=false,
+  urlbordercolor={1 1 .8},
+}
+
 % no parindent
-\setlength\parindent{0pt}
+\setlength{\parindent}{0pt}
 
 % non-indenting itemize
 \newenvironment{itemize-noindent}
@@ -102,7 +112,6 @@
 #4
 \end{minipage}
 \end{tabbing}
-\vspace{2mm}
 }
 
 %----------------------------------------------------------------------------------------
@@ -119,7 +128,6 @@
 #5
 \end{minipage}
 \end{tabbing}
-\vspace{2mm}
 }
 
 %----------------------------------------------------------------------------------------
@@ -238,6 +246,8 @@ Published several papers, attended international conferences and authored open s
 Scientific visit (1 month) at \href{https://www.cornell.edu}{Cornell University}, Ithaca, NY. 
 %collaboration with \href{http://pi.math.cornell.edu/~ebs/}{Prof. Edward Swartz}.
 }
+
+\vspace{2mm}
 
 \education
 {2002-2007}
