@@ -10,12 +10,11 @@ permalink: /cv
 * Freelance researcher / software engineer / trainer
 * [LinkedIn](https://www.linkedin.com/in/felix-effenberger/){:target="_blank"}
 * Citizenship: German
-* Languages spoken: German (native), English (fluent), French (fluent), Italian (basic knowledge)
 
 # Personal Profile
 
 I am a Mathematician (PhD) and computer scientist by training, turned neuroscientist, turned entrepreneur. 
-I work as freelance researcher / software engineer / data scientist / trainer, located in Germany.
+I am located in Germany and work for my own startups and as freelance researcher / software engineer / data scientist / trainer as well.
 My research interests are in (computational) neuroscience, (discrete) mathematics and (high-dimensional) data analysis.
 I am also interested in creating open source software.
 
@@ -116,7 +115,16 @@ See [teaching page](/teaching).
 * [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/){:target="_blank"}, Reviewer
 * [PLOS One](https://journals.plos.org/plosone/){:target="_blank"}, Reviewer
 
-# Expertise
+# Skills
+
+## Languages
+
+* German: native
+* English: full professional proficiency
+* French: professional working proficiency
+* Italian: elementary proficiency
+
+## Expertise
 
 * Mathematics:
   graph theory,
@@ -156,7 +164,7 @@ See [teaching page](/teaching).
   statistics and statistical estimation
 
 
-# Software Engineering Skills
+## Software Engineering Skills
 
 * Programming Languages:
   Assembly,
@@ -179,5 +187,6 @@ See [teaching page](/teaching).
   Systems administration in UNIX/Linux environments,
   DVCS (Git) and Subversion,
   Productivity applications (LaTeX, office software),
-  Amazon Web Services,
-  Microsoft Azure
+  Cloud computing (Amazon Web Services, Microsoft Azure),
+  Infrastructure as code tools (Terraform, Ansible),
+  Agile development methodologies
