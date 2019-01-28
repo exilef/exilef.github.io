@@ -7,14 +7,14 @@ permalink: /cv
 
 # Basic information
 
-* Freelance researcher / software engineer / trainer
+* Freelance software engineer / data scientist / researcher / trainer
 * [LinkedIn](https://www.linkedin.com/in/felix-effenberger/){:target="_blank"}
 * Citizenship: German
 
 # Personal Profile
 
 I am a Mathematician (PhD) and computer scientist by training, turned neuroscientist, turned entrepreneur. 
-I am located in Germany and work for my own startups and as freelance researcher / software engineer / data scientist / trainer.
+I am located in Germany and work for my own startups and as freelance software engineer / data scientist / researcher / trainer.
 My research interests are in neuroscience, mathematics, data analysis, and machine learning.
 I am also interested in creating open source software.
 
